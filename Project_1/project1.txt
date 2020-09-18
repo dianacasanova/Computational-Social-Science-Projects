@@ -1,0 +1,156 @@
+
+diana@LAPTOP-22R59CG4 MINGW64 ~
+$ ls
+'3D Objects'/
+ anaconda3/
+ AppData/
+ Apple/
+'Application Data'@
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+'Google Drive'/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{d1ac58b6-cc1d-11e9-8e44-eb676b313529}.TM.blf
+ NTUSER.DAT{d1ac58b6-cc1d-11e9-8e44-eb676b313529}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{d1ac58b6-cc1d-11e9-8e44-eb676b313529}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+ Roaming/
+'Saved Games'/
+ Searches/
+ SendTo@
+ smartpls_workspace/
+'Start Menu'@
+ Templates@
+ Videos/
+ Zotero/
+
+diana@LAPTOP-22R59CG4 MINGW64 ~
+$ cd Desktop/
+
+diana@LAPTOP-22R59CG4 MINGW64 ~/Desktop
+$ ls
+'~$EC_ReadyforCE_DC_CE.docx'
+'~$erflow.docx'
+'~$I vignette - 3.09.2020_DCnotes.docx'
+'~$ujillo_DisciplinedInquiry_Syllabus_Spring2019_FINAL.doc'
+'BRE - Shortcut.lnk'*
+ Brewer_Schedule.png
+'Casanova_Field Theories QE Reading List_20200915.docx'
+'Computational_Social_Science_Project_1 (1).pdf'
+ Computational-Social-Science-Training-Program-master/
+'CSS 2020'/
+ Denzin-2009.pdf
+ desktop.ini
+'fam photo 2019.jpg'
+'Google Drive.lnk'*
+'IMG__146_ready for printing.jpg'
+ IMG_6686.mov
+ IMG_DC_cropheadshot_resized.jpg
+ IMG_DC_cropheadshot_resized_small.jpg
+'LCAP PSAC Membership Roster--Spring 2020.xlsx'
+ Magic-of-thinking-big.pdf
+'MA-PP1 - Lit Review - Shortcut.lnk'*
+'Measurement and Evaluation'/
+ my-first-repo/
+'Photos - Shortcut.lnk'*
+"Please Don't Share.pdf"
+'QE Prep'/
+'Research Statement Diana Casanova Spring 2020_20200611.docx'
+ SOC273L-Week3.pdf
+'Student Interview #1 Erin Yarbrough _ Jihun Cho-1.pages'
+'Syllabus_Section 15 - Thursday 1-2pm (1).pdf'
+'TRU-LS Work - Desktop - Shortcut.lnk'*
+'UCB Colleagues Work - Shortcut.lnk'*
+'words of encouragement.PNG'
+ Zoom.lnk*
+
+diana@LAPTOP-22R59CG4 MINGW64 ~/Desktop
+$ git clone https://github.com/dianacasanova/Computational-Social-Science-Projects.git
+Cloning into 'Computational-Social-Science-Projects'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 622 bytes | 14.00 KiB/s, done.
+
+diana@LAPTOP-22R59CG4 MINGW64 ~/Desktop
+$ cd C^C
+
+diana@LAPTOP-22R59CG4 MINGW64 ~/Desktop
+$ ls
+'~$EC_ReadyforCE_DC_CE.docx'
+'~$erflow.docx'
+'~$I vignette - 3.09.2020_DCnotes.docx'
+'~$ujillo_DisciplinedInquiry_Syllabus_Spring2019_FINAL.doc'
+'BRE - Shortcut.lnk'*
+ Brewer_Schedule.png
+'Casanova_Field Theories QE Reading List_20200915.docx'
+'Computational_Social_Science_Project_1 (1).pdf'
+ Computational-Social-Science-Projects/
+ Computational-Social-Science-Training-Program-master/
+'CSS 2020'/
+ Denzin-2009.pdf
+ desktop.ini
+'fam photo 2019.jpg'
+'Google Drive.lnk'*
+'IMG__146_ready for printing.jpg'
+ IMG_6686.mov
+ IMG_DC_cropheadshot_resized.jpg
+ IMG_DC_cropheadshot_resized_small.jpg
+'LCAP PSAC Membership Roster--Spring 2020.xlsx'
+ Magic-of-thinking-big.pdf
+'MA-PP1 - Lit Review - Shortcut.lnk'*
+'Measurement and Evaluation'/
+ my-first-repo/
+'Photos - Shortcut.lnk'*
+"Please Don't Share.pdf"
+'QE Prep'/
+'Research Statement Diana Casanova Spring 2020_20200611.docx'
+ SOC273L-Week3.pdf
+'Student Interview #1 Erin Yarbrough _ Jihun Cho-1.pages'
+'Syllabus_Section 15 - Thursday 1-2pm (1).pdf'
+'TRU-LS Work - Desktop - Shortcut.lnk'*
+'UCB Colleagues Work - Shortcut.lnk'*
+'words of encouragement.PNG'
+ Zoom.lnk*
+
+diana@LAPTOP-22R59CG4 MINGW64 ~/Desktop
+$ cd Computational-Social-Science-Projects
+
+diana@LAPTOP-22R59CG4 MINGW64 ~/Desktop/Computational-Social-Science-Projects (master)
+$ mkdir Project_1
+
+diana@LAPTOP-22R59CG4 MINGW64 ~/Desktop/Computational-Social-Science-Projects (master)
+$ cd Project_1/
+
+diana@LAPTOP-22R59CG4 MINGW64 ~/Desktop/Computational-Social-Science-Projects/Project_1 (master)
+$ touch project1.txt
+
+diana@LAPTOP-22R59CG4 MINGW64 ~/Desktop/Computational-Social-Science-Projects/Project_1 (master)
+$ cd ../
+
+diana@LAPTOP-22R59CG4 MINGW64 ~/Desktop/Computational-Social-Science-Projects (master)
+$ git add *
+
+diana@LAPTOP-22R59CG4 MINGW64 ~/Desktop/Computational-Social-Science-Projects (master)
+$ git commit -m "Adding Project 1 text file"
+
+diana@LAPTOP-22R59CG4 MINGW64 ~/Desktop/Computational-Social-Science-Projects (master)
+$ git push
